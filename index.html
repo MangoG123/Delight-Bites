@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delight Bites</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Delight Bites</a>   
+        <div class=""bx bx-menu" id=""menu-icon"></div>     
+        <nav>
+            <ul class="navbar">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Services">Service</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="Home">
+        <div class="home-text">
+        <h1>Welcome to Delight Bites</h1>
+        <h2>Your favorite food delivered to your doorsteps.</h2>
+        <a href="#" class="btn">Today's Menu</a>
+</div>
+<div class="home-img">
+<img src="img/home.png">
+</div>
+    </section>
+
+    <section class="about"id="About">
+        <div class=""about-img">
+        <img src=img/about.png">
+    </div>
+        <h2>About Us</h2>
+        <p>Delight Bites is a unique food delivery service that connects users with cloud kitchens, restaurants, cafes, and home services. Our mission is to provide a seamless and easy ordering and delivery experience for a variety of cuisines.</p>
+    </section>
+
+    <section id="Menu">
+        <h2>Menu</h2>
+        <div id="menu-items"></div>
+    </section>
+
+    <section id="Service">
+        <h2>Our Services</h2>
+        <p>We offer the following services:</p>
+        <ul>
+            <li>Order</li>
+            <li>Shipping</li>
+            <li>Delivery</li>
+        </ul>
+    </section>
+
+    <section id="Contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delight Bites. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
